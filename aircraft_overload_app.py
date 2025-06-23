@@ -22,7 +22,7 @@ def interpolate_pcr(row, sat):
 
 # Streamlit UI
 st.set_page_config(page_title="Aircraft Overload Demo Tool", layout="wide")
-st.title("Prototype: Aircraft Overload Checker Based on Soil Type and Saturation")
+st.title("Demo Model: Aircraft Overload Checker Based on Soil Type and Saturation")
 
 st.sidebar.header("User Input")
 soil_types = ["A-1-a", "A-1-b", "A-2-4", "A-2-6", "A-2-7", "A-3", "A-4", "A-5", "A-6", "A-7-5", "A-7-6"]
